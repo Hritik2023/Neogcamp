@@ -5,3 +5,13 @@ body {
     sans-serif;
 }
 
+
+.container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.container-centre {
+    max-width: 600px;
+    margin: auto;
+}
