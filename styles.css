@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@1,300;1,600&display=swap');
 
 :root {
-    --primary-colour: #14b8a6
+    --primary-colour: #14b8a6;
 }
 
 body {
@@ -51,6 +51,30 @@ hr {
     padding: 0rem 0.5rem;
 }
 
+.navigation {
+    background-color: var
+    (--primary-color);
+    color: white;
+    padding: 1rem;
+    border-bottom-right-radius: 
+    1rem;
+}
+
+.navigation.nav-brand {
+    font-weight: bold;
+}
+
+.navigation .nav-pills {
+    text-align: right;
+}
+
+.navigation link {  
+    color: white;
+}
+
+.navigation .link-active {
+    font-weight: bold;
+}
 
 
 
