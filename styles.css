@@ -2,12 +2,14 @@
 
 :root {
     --primary-colour: #14b8a6;
+    --off-white: #374151
     --dark-violet: #6d28d9;
+
 }
 
 body {
     font-family: 'Nunito Sans',
-    sans-serif;
+        sans-serif;
 }
 
 hr {
@@ -31,16 +33,15 @@ hr {
 
 
 .link-primary {
-   background-color: var(--primary-colour);
-   border-radius: 0.5rem;
-   color: white
+    background-color: var(--primary-colour);
+    border-radius: 0.5rem;
+    color: white
 }
 
 .link-secondary {
     color: var(--primary-colour);
     border-radius: 0.5rem;
-    border: 1px solid var
-    (--primary-color);
+    border: 1px solid var (--primary-color);
 }
 
 .list-non-bullet {
@@ -53,12 +54,11 @@ hr {
 }
 
 .navigation {
-    background-color: var
-    (--primary-color);
+    background-color: var (--primary-color);
     color: white;
     padding: 1rem;
-    border-bottom-right-radius: 
-    1rem;
+    border-bottom-right-radius:
+        1rem;
 }
 
 .navigation.nav-brand {
@@ -69,7 +69,7 @@ hr {
     text-align: right;
 }
 
-.navigation link {  
+.navigation link {
     color: white;
 }
 
@@ -91,18 +91,25 @@ hr {
 
 .hero .hero-heading {
     padding-top: 1rem;
-    color: var(--dark-gray)
+    color: var(--dark-gray);
 }
 
-.hero .hero-heading .
-heading-inverted {
-    color: var(--primary-colour)
-    ;
+.hero .hero-heading . heading-inverted {
+    color: var(--primary-colour);
 }
 
 
+.section{
+    padding: 2rem;
+}
 
 
+.section h1 {
+    text-align: center;
 
+}
 
+.ow {
+    background-color: var(--off-white);
+}
 
